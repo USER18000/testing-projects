@@ -1,0 +1,19 @@
+{
+  "name": "pet-project-api-testing",
+  "version": "1.0.0",
+  "description": "Pet project for API testing with Jest and Allure",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:allure": "jest && allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "keywords": ["api", "testing", "jest", "allure"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.2.0", 
+    "axios": "^1.13.2",
+    "allure-commandline": "^2.34.1",
+    "allure-jest": "^3.4.2" 
+  }
+}
