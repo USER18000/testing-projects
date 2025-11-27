@@ -9,14 +9,14 @@ describe('ReqRes API — DELETE /users/:id (with API Key)', () => {
         }
       });
 
-      // Ожидаем статус 204 — успешное удаление без тела ответа
+      
       expect(response.status).toBe(204);
       // Тело ответа должно быть пустым
       expect(response.data).toBe('');
     } catch (error) {
-      // Некоторые HTTP-клиенты могут не возвращать 204 как ошибку,
-      // но axios обычно обрабатывает 2xx как успешные
+     е
       throw error;
     }
   });
+
 });
