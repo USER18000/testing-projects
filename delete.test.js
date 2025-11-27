@@ -11,7 +11,7 @@ describe('ReqRes API — DELETE /users/:id (with API Key)', () => {
 
       
       expect(response.status).toBe(204);
-      // Тело ответа должно быть пустым
+      
       expect(response.data).toBe('');
     } catch (error) {
      
@@ -20,4 +20,5 @@ describe('ReqRes API — DELETE /users/:id (with API Key)', () => {
   });
 
 });
+
 
